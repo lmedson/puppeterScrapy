@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-async function getPic() {
+async function getPrice() {
   const browser = await puppeteer.launch({headless: false});
   const page = await browser.newPage();
 
@@ -13,6 +13,7 @@ async function getPic() {
       result
     }
   });
-  //console.log(result.a)
+  console.log(value.result)
   await browser.close();
 }
+getPrice()
