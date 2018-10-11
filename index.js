@@ -13,6 +13,6 @@ async function getPic() {
       result
     }
   });
-  //console.log(result.a)
+  //console.log(value.result)
   await browser.close();
 }
