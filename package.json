@@ -1,15 +1,21 @@
 {
-  "name": "nodejs",
+  "name": "nodejs-auth-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "puppeteer": "^1.9.0"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "rand-token": "^0.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Medson Mendes",
   "license": "ISC"
 }
